@@ -11,7 +11,10 @@ import net.minecraft.util.registry.Registry;
 public class Moditems {
 
     public static final Item bobi = registerItem("bobi",
-            new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodComponents.bobi)));
+            new Item(new FabricItemSettings().group(ModItemGroup.GENERAL).food(ModFoodComponents.bobi)));
+
+    public static final Item carlos = registerItem("carlos",
+            new Item(new FabricItemSettings().group(ModItemGroup.GENERAL).food(ModFoodComponents.bobi)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Testmod.MOD_ID, name), item);

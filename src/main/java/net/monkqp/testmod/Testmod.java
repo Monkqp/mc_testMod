@@ -1,6 +1,7 @@
 package net.monkqp.testmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.monkqp.testmod.item.ModItemGroup;
 import net.monkqp.testmod.item.Moditems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
