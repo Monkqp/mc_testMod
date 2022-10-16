@@ -1,4 +1,6 @@
 {
   "item.testmod.bobi": "Bobi",
-  "itemGroup.testmod.general": "General"
+  "itemGroup.testmod.general": "General",
+  "item.testmod.ruby_staff": "Ruby Staff",
+  "item.testmod.ruby_great_staff": "Ruby Great Staff"
 }

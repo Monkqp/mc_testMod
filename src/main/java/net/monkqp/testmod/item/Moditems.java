@@ -16,6 +16,11 @@ public class Moditems {
     public static final Item carlos = registerItem("carlos",
             new Item(new FabricItemSettings().group(ModItemGroup.GENERAL).food(ModFoodComponents.bobi)));
 
+    public static final Item ruby_staff = registerItem("ruby_staff",
+            new Item(new FabricItemSettings().group(ModItemGroup.GENERAL)));
+
+    public static final Item ruby_great_staff = registerItem("ruby_great_staff",
+            new Item(new FabricItemSettings().group(ModItemGroup.GENERAL)));
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Testmod.MOD_ID, name), item);
     }
